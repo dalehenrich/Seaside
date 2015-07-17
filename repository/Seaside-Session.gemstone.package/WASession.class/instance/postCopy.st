@@ -1,4 +1,4 @@
 copying
 postCopy
-	super postCopy.
-	continuations := continuations copy
+  super postCopy.
+  self continuations: self continuations copy
