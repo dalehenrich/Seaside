@@ -16,7 +16,7 @@ baselinegemstone: spec
           with: [ 
               spec
                 includes: #('Seaside-GemStone-Core');
-		    requires: #('GLASS1') ];
+                requires: #('GLASS1') ];
         package: 'Seaside-Development'
           with: [ spec includes: #('Seaside-GemStone-Development') ];
         package: 'Seaside-Email'
@@ -24,7 +24,10 @@ baselinegemstone: spec
         package: 'Seaside-Flow'
           with: [ spec includes: #('Seaside-GemStone-Flow') ];
         package: 'Seaside-Environment'
-          with: [ spec includes: #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production') ];
+          with: [ 
+              spec
+                includes:
+                  #('Seaside-GemStone-Environment' 'Seaside-GemStone-Tools-Production') ];
         package: 'Seaside-Session'
           with: [ 
               spec
@@ -126,4 +129,13 @@ baselinegemstone: spec
                 requires: #('Seaside-Core');
                 includes: #('Seaside-GemStone-Core') ];
         package: 'Seaside-GemStone-Core'
-          with: [ spec requires: #('Seaside-GemStone320-Core') ] ]
+          with: [ spec requires: #('Seaside-GemStone320-Core') ] ].
+  spec
+    for: #'gs3.3.x'
+    do: [ 
+      spec
+        package: 'Seaside-GemStone-Session'
+          with: [ spec includes: #('Seaside-GemStone-NotTranlogged-Session') ];
+        package: 'Seaside-GemStone-NotTranlogged-Session'
+          with: [ spec requires: #('Seaside-GemStone-Session') ];
+        yourself ]
