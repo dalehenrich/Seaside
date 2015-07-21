@@ -8,9 +8,10 @@
 		"initializeWithInitialSize:maximumSize:maximumAbsoluteAge:maximumRelativeAge:overflowAction:" : "JohanBrichau 7/15/2015 15:02",
 		"isExpired:" : "pmm 7/13/2015 16:59",
 		"isExpired:now:" : "pmm 7/13/2015 17:48",
+		"keyAtValue:ifAbsent:" : "dkh 07/20/2015 09:52",
 		"keysAndValuesDo:" : "pmm 7/13/2015 14:29",
 		"postCopy" : "pmm 7/13/2015 17:05",
 		"reap" : "pmm 7/16/2015 14:04",
-		"remove:" : "pmm 7/13/2015 17:19",
+		"remove:" : "dkh 07/20/2015 09:52",
 		"size" : "pmm 7/13/2015 14:27",
 		"store:" : "pmm 7/13/2015 15:09" } }
