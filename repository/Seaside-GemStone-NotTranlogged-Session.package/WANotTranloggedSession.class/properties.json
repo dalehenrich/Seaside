@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-GemStone-NotTranlogged-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"copiedFrom" ],
+	"name" : "WANotTranloggedSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }
