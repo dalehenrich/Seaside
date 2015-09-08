@@ -1,0 +1,62 @@
+TDScriptLeafNode{#name:'notTranlogged',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./notTranlogged -h\"
+  command
+    getOptsMixedLongShort:
+      {#(\'help\' $h #\'none\').
+      #(\'query\' nil #\'required\').
+      #(\'enable\' nil #\'required\').
+      #(\'disable\' nil #\'required\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ 
+      | block app  |
+      block := [ :fullPath | 
+      | path |
+      path := fullPath subStrings: \'/\'.
+      path
+        inject: WADispatcher default
+        into: [ :result :each | 
+          result handlers
+            at: each
+            ifAbsent: [ self error: \'application \' , fullPath printString , \' not found.\' ] ] ].
+      opts
+        at: \'query\'
+        ifPresent: [ :applicationPath | 
+          app := block value: applicationPath.
+          app configuration clearSearchContexts.
+           ].
+      opts
+        at: \'enable\'
+        ifPresent: [ :applicationPath | 
+          app := block value: applicationPath.
+          app sessionClass: WANotTranloggedSession.
+           ].
+      opts
+        at: \'disable\'
+        ifPresent: [ :applicationPath | 
+          app := block value: applicationPath.
+          app sessionClass: WASession.
+           ].
+      {app sessionClass. app} ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  notTranlogged - notTranlogged script utility template
+SYNOPSIS
+  notTranlogged [-h|--help] [--enable=<seaide-app-path>] [--disable=<seaide-app-path>] \\
+                            [--query=<seaide-app-path>]
+DESCRIPTION
+EXAMPLES
+  ./notTranlogged --help
+  ./notTranlogged -h
+
+  ./notTranlogged --enable=examples/counter  # use WANotTranloggedSession for app
+  ./notTranlogged --disable=examples/counter # use WASession for app
+  ./notTranlogged --query=examples/counter   # query #sesionClass for app
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2015-09-07T15:06:22.1485800743103-07:00'],#modificationTime:@2}
