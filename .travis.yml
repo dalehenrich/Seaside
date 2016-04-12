@@ -1,14 +1,25 @@
 language: smalltalk
 sudo: false
+
 smalltalk:
   - Pharo-5.0
-  - Pharo-4.0
-  - Pharo-3.0
-  - Squeak-4.5
+#  - Pharo-4.0
+#  - Pharo-3.0
+#  - Squeak-4.5
   - Squeak-5.0
-  - GemStone-3.1.0.6
-  - GemStone-3.2.12
+#  - GemStone-3.1.0.6
+#  - GemStone-3.2.14
   - GemStone-3.3.0
+
+smalltalk_config: .smalltalk.ston
+
 cache:
   directories:
     - $SMALLTALK_CI_CACHE
+
+matrix:
+  include:
+    - smalltalk: 
+        - GemStone-3.3.0
+      smalltalk_config:
+        - .smalltalk_gs_all.ston
