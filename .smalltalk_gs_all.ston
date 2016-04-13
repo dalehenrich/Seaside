@@ -3,7 +3,6 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'Seaside3',
       #directory : 'repository',
-      #onWarningLog : true,
       #load : [ 'ALL' ],
       #platforms : [ #gemstone ]
     }

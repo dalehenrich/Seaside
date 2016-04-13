@@ -17,9 +17,9 @@ cache:
   directories:
     - $SMALLTALK_CI_CACHE
 
-matrix:
-  include:
-    - smalltalk: 
-        - GemStone-3.3.0
-      smalltalk_config:
-        - .smalltalk_gs_all.ston
+#matrix:
+#  include:
+#    - smalltalk: 
+#        - GemStone-3.3.0
+#      smalltalk_config:
+#        - .smalltalk_gs_all.ston
