@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "pmm 2/1/2014 13:39",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/1/2014 13:39",
 	"instvars" : [
 		"attributes",
-		"expressions"
-	],
+		"expressions" ],
 	"name" : "WAConfigurationDescription",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

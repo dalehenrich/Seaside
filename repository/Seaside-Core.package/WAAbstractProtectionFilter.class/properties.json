@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JohanBrichau 8/4/2019 07:41",
-	"super" : "WARequestFilter",
 	"category" : "Seaside-Core-Filter",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JohanBrichau 8/4/2019 07:41",
+	"instvars" : [
+		 ],
 	"name" : "WAAbstractProtectionFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

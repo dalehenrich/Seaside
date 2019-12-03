@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "lr 2/22/2009 16:08",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/22/2009 16:08",
 	"instvars" : [
-		"delegates"
-	],
+		"delegates" ],
 	"name" : "WAMergedRequestFields",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

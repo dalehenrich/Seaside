@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WASystemConfiguration",
 	"category" : "Seaside-Core-RequestHandling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WARegistryConfiguration",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WASystemConfiguration",
+	"type" : "normal" }

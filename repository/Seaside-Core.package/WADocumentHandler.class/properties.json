@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "pmm 2/18/2011 23:05",
-	"super" : "WARequestHandler",
 	"category" : "Seaside-Core-RequestHandling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 23:05",
 	"instvars" : [
-		"document"
-	],
+		"document" ],
 	"name" : "WADocumentHandler",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WARequestHandler",
+	"type" : "normal" }

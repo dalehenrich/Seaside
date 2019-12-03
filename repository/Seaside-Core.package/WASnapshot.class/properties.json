@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "lr 6/2/2008 09:24",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Backtracking",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 6/2/2008 09:24",
 	"instvars" : [
-		"objects"
-	],
+		"objects" ],
 	"name" : "WASnapshot",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

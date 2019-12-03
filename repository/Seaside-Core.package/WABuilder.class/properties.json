@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "StephanEggermont 3/11/2014 11:07",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Rendering",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephanEggermont 3/11/2014 11:07",
 	"instvars" : [
 		"fullDocument",
 		"rootBlock",
@@ -14,8 +14,9 @@
 		"rendererClass",
 		"codec",
 		"actionUrl",
-		"resourceUrl"
-	],
+		"resourceUrl" ],
 	"name" : "WABuilder",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

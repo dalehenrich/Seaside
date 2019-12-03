@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "pmm 7/15/2015 07:41",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/15/2015 07:41",
 	"instvars" : [
 		"value",
 		"creationTime",
 		"accessTime",
 		"count",
-		"lastCount"
-	],
+		"lastCount" ],
 	"name" : "WABulkReapingCacheEntry",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

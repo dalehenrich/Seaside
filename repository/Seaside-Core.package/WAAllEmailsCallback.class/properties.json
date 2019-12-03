@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAAllValuesCallback",
 	"category" : "Seaside-Core-Callbacks",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAAllEmailsCallback",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAAllValuesCallback",
+	"type" : "normal" }

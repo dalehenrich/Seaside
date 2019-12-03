@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 8/27/2019 11:57",
-	"super" : "WASession",
 	"category" : "Seaside-Examples",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/27/2019 11:57",
+	"instvars" : [
+		 ],
 	"name" : "WASessionCookieProtectedSession",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

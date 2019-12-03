@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAUserConfiguration",
 	"category" : "Seaside-Core-Configuration",
 	"classinstvars" : [
-		"instances"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"instances" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"name"
-	],
+		"name" ],
 	"name" : "WASharedConfiguration",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAUserConfiguration",
+	"type" : "normal" }

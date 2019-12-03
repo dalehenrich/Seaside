@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"accept:" : "jf 1/11/2009 19:43",
-		"valueFromString:" : "jf 7/31/2009 13:14"
-	},
-	"class" : { }
-}
+		"valueFromString:" : "jf 7/31/2009 13:14" } }

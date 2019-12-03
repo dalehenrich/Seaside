@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAFileLibrary",
 	"category" : "Seaside-Examples-Misc",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAFileLibraryDemo",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAFileLibrary",
+	"type" : "normal" }

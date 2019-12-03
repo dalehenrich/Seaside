@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "lr 8/11/2009 10:59",
-	"super" : "WARequestFilter",
 	"category" : "Seaside-Core-Filter",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 8/11/2009 10:59",
 	"instvars" : [
-		"closed"
-	],
+		"closed" ],
 	"name" : "WATransactionFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WARequestFilter",
+	"type" : "normal" }

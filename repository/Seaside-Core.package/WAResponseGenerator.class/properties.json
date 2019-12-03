@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "lr 2/20/2009 11:16",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-RequestHandling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 2/20/2009 11:16",
 	"instvars" : [
-		"requestContext"
-	],
+		"requestContext" ],
 	"name" : "WAResponseGenerator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

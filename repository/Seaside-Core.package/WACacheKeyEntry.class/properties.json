@@ -1,18 +1,19 @@
 {
-	"commentStamp" : "",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"key",
 		"keyHash",
 		"value",
 		"next",
 		"byAccessListEntry",
-		"byCreationListEntry"
-	],
+		"byCreationListEntry" ],
 	"name" : "WACacheKeyEntry",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

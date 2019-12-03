@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 6/14/2009 13:29",
-	"super" : "WAValueCallback",
 	"category" : "Seaside-Core-Callbacks",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 6/14/2009 13:29",
+	"instvars" : [
+		 ],
 	"name" : "WAUrlCallback",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAValueCallback",
+	"type" : "normal" }

@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "lr 1/23/2009 09:57",
-	"super" : "WAResponse",
 	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lr 1/23/2009 09:57",
 	"instvars" : [
-		"contentsStream"
-	],
+		"contentsStream" ],
 	"name" : "WABufferedResponse",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAResponse",
+	"type" : "normal" }

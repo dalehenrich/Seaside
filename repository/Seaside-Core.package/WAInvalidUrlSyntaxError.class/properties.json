@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAError",
 	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAInvalidUrlSyntaxError",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAError",
+	"type" : "normal" }

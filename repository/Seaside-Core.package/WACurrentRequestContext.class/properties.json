@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 6/1/2008 00:38",
-	"super" : "WADynamicVariable",
 	"category" : "Seaside-Core-RequestHandling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 6/1/2008 00:38",
+	"instvars" : [
+		 ],
 	"name" : "WACurrentRequestContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WADynamicVariable",
+	"type" : "normal" }

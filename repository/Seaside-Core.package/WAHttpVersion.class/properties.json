@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-HTTP",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"major",
-		"minor"
-	],
+		"minor" ],
 	"name" : "WAHttpVersion",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

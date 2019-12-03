@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "jf 9/17/2008 20:50",
-	"super" : "WAExceptionHandler",
 	"category" : "Seaside-Core-RequestHandling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 9/17/2008 20:50",
+	"instvars" : [
+		 ],
 	"name" : "WAErrorHandler",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAExceptionHandler",
+	"type" : "normal" }

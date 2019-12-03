@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAAttributeExpression",
 	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"value"
-	],
+		"value" ],
 	"name" : "WAValueExpression",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAAttributeExpression",
+	"type" : "normal" }

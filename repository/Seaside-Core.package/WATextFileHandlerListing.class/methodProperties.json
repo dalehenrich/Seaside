@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"responseForLibrary:" : "lr 5/20/2009 20:16",
-		"responseForLibraries" : "lr 5/20/2009 20:15"
-	},
-	"class" : { }
-}
+		"responseForLibraries" : "lr 5/20/2009 20:15",
+		"responseForLibrary:" : "lr 5/20/2009 20:16" } }

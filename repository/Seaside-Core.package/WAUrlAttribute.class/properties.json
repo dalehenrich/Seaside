@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "jf 11/3/2009 00:12",
-	"super" : "WAAttribute",
 	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 11/3/2009 00:12",
+	"instvars" : [
+		 ],
 	"name" : "WAUrlAttribute",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAAttribute",
+	"type" : "normal" }

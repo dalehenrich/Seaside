@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 4/17/2007 00:14",
-	"super" : "WANotification",
 	"category" : "Seaside-Core-Utilities",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 4/17/2007 00:14",
+	"instvars" : [
+		 ],
 	"name" : "WADynamicVariable",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WANotification",
+	"type" : "normal" }

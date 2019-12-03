@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 1/28/2008 07:07",
-	"super" : "WAOpeningConditionalComment",
 	"category" : "Seaside-Core-Document-Elements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 1/28/2008 07:07",
+	"instvars" : [
+		 ],
 	"name" : "WAOpeningRevealedConditionalComment",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAOpeningConditionalComment",
+	"type" : "normal" }

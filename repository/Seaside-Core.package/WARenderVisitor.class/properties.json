@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "jf 2/13/2009 19:52",
-	"super" : "WAPainterVisitor",
 	"category" : "Seaside-Core-Rendering",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 2/13/2009 19:52",
 	"instvars" : [
-		"renderContext"
-	],
+		"renderContext" ],
 	"name" : "WARenderVisitor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAPainterVisitor",
+	"type" : "normal" }

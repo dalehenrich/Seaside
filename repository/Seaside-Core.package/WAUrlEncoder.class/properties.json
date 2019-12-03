@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "jf 1/23/2009 20:47",
-	"super" : "WATableBasedEncoder",
 	"category" : "Seaside-Core-Document",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 1/23/2009 20:47",
+	"instvars" : [
+		 ],
 	"name" : "WAUrlEncoder",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WATableBasedEncoder",
+	"type" : "normal" }

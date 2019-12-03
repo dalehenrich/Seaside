@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 7/13/2015 11:00",
-	"super" : "WASystemConfiguration",
 	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/13/2015 11:00",
+	"instvars" : [
+		 ],
 	"name" : "WACacheConfiguration",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WASystemConfiguration",
+	"type" : "normal" }

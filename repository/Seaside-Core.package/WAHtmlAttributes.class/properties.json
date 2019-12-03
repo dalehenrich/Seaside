@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "jf 1/23/2009 12:28",
-	"super" : "GRSmallDictionary",
 	"category" : "Seaside-Core-Document",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 1/23/2009 12:28",
+	"instvars" : [
+		 ],
 	"name" : "WAHtmlAttributes",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GRSmallDictionary",
+	"type" : "normal" }

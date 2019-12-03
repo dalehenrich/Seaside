@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "pmm 8/27/2019 11:55",
-	"super" : "WAExampleComponent",
 	"category" : "Seaside-Examples-Misc",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/27/2019 11:55",
 	"instvars" : [
-		"counter"
-	],
+		"counter" ],
 	"name" : "WASessionProtectedCounter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAExampleComponent",
+	"type" : "normal" }

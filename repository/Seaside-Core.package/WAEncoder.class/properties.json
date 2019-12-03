@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "pmm 8/14/2011 13:15",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Document",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 8/14/2011 13:15",
 	"instvars" : [
-		"stream"
-	],
+		"stream" ],
 	"name" : "WAEncoder",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

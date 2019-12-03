@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "jf 9/17/2008 20:49",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-RequestHandling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 9/17/2008 20:49",
 	"instvars" : [
-		"requestContext"
-	],
+		"requestContext" ],
 	"name" : "WAExceptionHandler",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

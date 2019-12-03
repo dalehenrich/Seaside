@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "pmm 7/14/2015 09:26",
-	"super" : "WACache",
 	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/14/2015 09:26",
 	"instvars" : [
 		"byKey",
-		"byValue"
-	],
+		"byValue" ],
 	"name" : "WABidirectionalCache",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WACache",
+	"type" : "normal" }

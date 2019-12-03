@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAError",
 	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAConfigurationError",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAError",
+	"type" : "normal" }

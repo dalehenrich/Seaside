@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "pmm 7/13/2015 17:50",
-	"super" : "WAExpiringCache",
 	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/13/2015 17:50",
 	"instvars" : [
-		"dictionary"
-	],
+		"dictionary" ],
 	"name" : "WABulkReapingCache",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAExpiringCache",
+	"type" : "normal" }

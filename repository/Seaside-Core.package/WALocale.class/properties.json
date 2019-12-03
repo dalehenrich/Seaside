@@ -1,19 +1,18 @@
 {
-	"commentStamp" : "pmm 2/18/2011 22:58",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-HTTP",
 	"classinstvars" : [
 		"iso2Languages",
 		"iso3Languages",
 		"iso2Countries",
-		"iso3Countries"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"iso3Countries" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 2/18/2011 22:58",
 	"instvars" : [
 		"language",
-		"country"
-	],
+		"country" ],
 	"name" : "WALocale",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

@@ -1,16 +1,15 @@
 {
-	"commentStamp" : "pmm 9/14/2013 16:11",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Rendering",
 	"classinstvars" : [
-		"default"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/14/2013 16:11",
 	"instvars" : [
 		"context",
-		"lastId"
-	],
+		"lastId" ],
 	"name" : "WARenderer",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

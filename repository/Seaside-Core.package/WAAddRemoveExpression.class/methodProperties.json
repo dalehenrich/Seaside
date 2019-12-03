@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"removals:" : "jf 7/31/2008 13:09",
 		"additions" : "jf 7/31/2008 11:42",
-		"removals" : "jf 7/31/2008 13:09",
+		"additions:" : "jf 7/31/2008 11:43",
 		"determineValueWithContext:configuration:" : "jf 1/1/2009 23:19",
-		"additions:" : "jf 7/31/2008 11:43"
-	},
-	"class" : { }
-}
+		"removals" : "jf 7/31/2008 13:09",
+		"removals:" : "jf 7/31/2008 13:09" } }

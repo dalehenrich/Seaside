@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WARoot",
 	"category" : "Seaside-Core-Document",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"charSet"
-	],
+		"charSet" ],
 	"name" : "WAXmlRoot",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WARoot",
+	"type" : "normal" }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAListAttribute",
 	"category" : "Seaside-Core-Configuration",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WACollectionAttribute",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAListAttribute",
+	"type" : "normal" }

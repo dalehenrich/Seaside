@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "jf 7/22/2008 12:39",
-	"super" : "WASystemConfiguration",
 	"category" : "Seaside-Core-Filter",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jf 7/22/2008 12:39",
+	"instvars" : [
+		 ],
 	"name" : "WAAuthConfiguration",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WASystemConfiguration",
+	"type" : "normal" }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 9/9/2013 09:13",
-	"super" : "WAObject",
 	"category" : "Seaside-Core-Cache",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 9/9/2013 09:13",
+	"instvars" : [
+		 ],
 	"name" : "WACache",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAObject",
+	"type" : "normal" }

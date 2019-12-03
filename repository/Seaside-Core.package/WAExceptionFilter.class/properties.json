@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAConfiguredRequestFilter",
 	"category" : "Seaside-Core-Filter",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "WAExceptionFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAConfiguredRequestFilter",
+	"type" : "normal" }

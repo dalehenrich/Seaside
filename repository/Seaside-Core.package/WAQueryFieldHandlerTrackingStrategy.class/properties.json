@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "pmm 7/17/2011 17:12",
-	"super" : "WAHandlerTrackingStrategy",
 	"category" : "Seaside-Core-RequestHandling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pmm 7/17/2011 17:12",
+	"instvars" : [
+		 ],
 	"name" : "WAQueryFieldHandlerTrackingStrategy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAHandlerTrackingStrategy",
+	"type" : "normal" }

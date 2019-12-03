@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "JohanBrichau 8/24/2019 13:30",
-	"super" : "WAAbstractProtectionFilter",
 	"category" : "Seaside-Core-Filter",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JohanBrichau 8/24/2019 13:30",
 	"instvars" : [
-		"browserSessionID"
-	],
+		"browserSessionID" ],
 	"name" : "WASessionCookieProtectionFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAAbstractProtectionFilter",
+	"type" : "normal" }
